@@ -1,0 +1,119 @@
+colors {
+    --grey-900: #141414;
+    --grey-800: #1f1f1f;
+    --grey-700: #333333;
+    --green: #c4f82a;
+    --white: #ffffff;
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('./assets/fonts/static/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter Regular';
+    src: url('./assets/fonts/static/Inter-Regular.ttf');
+}
+
+.body {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    margin: auto;
+    padding: 40px;
+    background: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 384px;
+    border-radius: 12px;
+    gap: 24px;
+}
+
+.user {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+}
+
+.name {
+    margin: 0 auto;
+    font-family: 'Inter Bold';
+    color: #ffffff;
+}
+
+.avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Inter Bold';
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.location {
+    margin: 0;
+    font-family: 'Inter Bold';
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #c4f82a;
+}
+
+.about {
+    margin: 0;
+    font-family: 'Inter Regular';
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social {
+    background: #333333;
+    font-family: 'Inter Bold';
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    width: 304px;
+    height: 45px;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+}
+
+.social:hover {
+    background: #c4f82a;
+    cursor: pointer;
+    transition: linear 1s ease-in-out;
+    color: #141414;
+}
+
+.attribution {
+    color: #ffffff;
+    font-family: 'Inter Regular';
+}
