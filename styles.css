@@ -40,6 +40,14 @@
     gap: 24px;
 }
 
+@media screen and (max-width: 440px) {
+    .card {
+        max-width: 327px;
+        padding: 24px;
+    }
+    
+}
+
 .user {
     margin: 0;
     display: flex;
@@ -117,4 +125,5 @@
 .attribution {
     color: #ffffff;
     font-family: 'Inter Regular';
+    margin: 40px;
 }
