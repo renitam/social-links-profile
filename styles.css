@@ -123,7 +123,9 @@
 }
 
 .attribution {
+    position: absolute;
+    bottom: 0;
     color: #ffffff;
     font-family: 'Inter Regular';
-    margin: 40px;
+    margin: 10px;
 }
