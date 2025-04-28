@@ -1,128 +1,134 @@
 :root {
-    --grey-900: #141414;
-    --grey-800: #1f1f1f;
-    --grey-700: #333333;
-    --green: #c4f82a;
-    --white: #ffffff;
+  --grey-900: #141414;
+  --grey-800: #1f1f1f;
+  --grey-700: #333333;
+  --green: #c4f82a;
+  --white: #ffffff;
 }
 
 @font-face {
-    font-family: 'Inter Bold';
-    src: url('./assets/fonts/static/Inter-Bold.ttf');
+  font-family: "Inter Bold";
+  src: url("./assets/fonts/static/Inter-Bold.ttf");
 }
 
 @font-face {
-    font-family: 'Inter Regular';
-    src: url('./assets/fonts/static/Inter-Regular.ttf');
+  font-family: "Inter Regular";
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
 }
 
 .body {
-    background: #141414;
-    margin: auto;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  background: var(--grey-900);
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card {
-    margin: auto;
-    padding: 40px;
-    background: #1f1f1f;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 384px;
-    border-radius: 12px;
-    gap: 24px;
+  margin: auto;
+  padding: 40px;
+  background: var(--grey-800);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 384px;
+  border-radius: 12px;
+  gap: 24px;
 }
 
 @media screen and (max-width: 440px) {
-    .card {
-        max-width: 327px;
-        padding: 24px;
-    }
-    
+  .card {
+    max-width: 327px;
+    padding: 24px;
+  }
 }
 
 .profile {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
 }
 
 .avatar {
-    margin: auto;
-    width: 88px;
-    height: 88px;
-    border-radius: 50%;
+  margin: auto;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
 }
 
 .name {
-    color: #ffffff;
-    margin: 0;
-    font-family: 'Inter Bold';
-    font-size: 24px;
-    line-height: 150%;
-    letter-spacing: 0px;
+  color: var(--white);
+  margin: 0;
+  font-family: "Inter Bold";
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
 }
 
 .location {
-    color: #c4f82a;
-    margin: 0;
-    padding-top: 4px;
-    font-family: 'Inter Bold';
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 0px;
+  color: var(--green);
+  margin: 0;
+  padding-top: 4px;
+  font-family: "Inter Bold";
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
 }
 
 .about {
-    color: #ffffff;
-    margin: 0;
-    font-family: 'Inter Regular';
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 0px;
+  color: var(--white);
+  margin: 0;
+  font-family: "Inter Regular";
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .social {
-    background: #333333;
-    color: #ffffff;
-    font-family: 'Inter Bold';
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 0px;
-    width: 304px;
-    height: 45px;
-    border-radius: 8px;
-    text-decoration: none;
-    border: none;
-    transition: all 1s ease-in-out;
-    text-align: center;
+  background: var(--grey-700);
+  color: var(--white);
+  font-family: "Inter Bold";
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  width: 304px;
+  height: 45px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  transition: all 1s ease-in-out;
+  text-align: center;
 }
 
 .social:hover {
-    background: #c4f82a;
-    cursor: pointer;
-    color: #141414;
+  background: var(--green);
+  cursor: pointer;
+  color: var(--grey-900);
 }
 
 .attribution {
-    position: absolute;
-    bottom: 0;
-    color: #ffffff;
-    font-family: 'Inter Regular';
-    margin: 10px;
+  color: var(--white);
+  margin: 10px;
+  font-family: "Inter Regular";
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.attribution,
+a {
+  color: hsl(228, 45%, 44%);
 }
