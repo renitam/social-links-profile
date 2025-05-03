@@ -108,7 +108,7 @@
   border-radius: 8px;
   text-decoration: none;
   border: none;
-  transition: all .6s ease-in-out;
+  transition: all .6s linear;
   text-align: center;
 }
 
