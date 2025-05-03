@@ -100,8 +100,8 @@ I plan on adding a custom cursor for button hovers, and updating the design for 
 
 ## Author
 
-- Website - [Renita Mwangachuchu](https://afrod31ty.github.com/portfolio)
-- Frontend Mentor - [@afrod31ty](https://www.frontendmentor.io/profile/afrod31ty)
+- Website - [Renita Mwangachuchu](https://renitam.github.com/portfolio)
+- Frontend Mentor - [@afrod31ty](https://www.frontendmentor.io/profile/renitam)
 - Twitter - [@afrod31ty](https://www.twitter.com/afrod31ty)
 - Twitch - [@afrod31ty](https://www.twitch.tv/afrod31ty)
 
