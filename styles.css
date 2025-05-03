@@ -1,9 +1,9 @@
 :root {
-  --grey-900: #141414;
-  --grey-800: #1f1f1f;
-  --grey-700: #333333;
-  --green: #c4f82a;
-  --white: #ffffff;
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
 }
 
 @font-face {
