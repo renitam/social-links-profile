@@ -118,7 +118,7 @@
   letter-spacing: 0px;
 }
 
-.social:hover {
+.social__link:hover {
   background: var(--green);
   cursor: url("./assets/images/handcursor.svg"), pointer;
   color: var(--grey-900);
