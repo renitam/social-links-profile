@@ -114,7 +114,7 @@
 
 .social:hover {
   background: var(--green);
-  cursor: pointer;
+  cursor: url('./assets/images/handcursor.svg'), pointer;
   color: var(--grey-900);
 }
 
