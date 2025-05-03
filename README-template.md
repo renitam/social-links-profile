@@ -15,8 +15,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -51,29 +49,54 @@ Users should be able to:
 
 When I started this project, it'd been a year or two since I'd done anything web development related period. I had to relearn things like how css stylings work, html tags and ordering, and things like that. Like I forgot that commas in css classes act like or operators, and I needed to use spaces for "and" operators instead. Github pages is way easier to use than I remembered from last time... just the flick of a switch in my repository.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I feel like the semantics make sense, although they're not placed perfectly if you know what I'm saying. For instance:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+    <main class="card">
+      <header class="profile">
+        <img
+          class="avatar"
+          alt="image of profile avatar"
+          src="./assets/images/avatar-afrodeity.png"
+        />
+        <section class="user">
+          <h1 class="name">Renita Mwangachuchu</h1>
+          <p class="location">Maryland, United States</p>
+        </section>
+        <p class="about">"Full-stack developer and avid gamer."</p>
+      </header>
+      <nav class="links">
+        <a class="social__link" href="https://www.github.com/renitam" target="_blank"
+          ><p class="social__text">GitHub</p></a
+        >
+        <a
+          class="social__link"
+          href="https://www.frontendmentor.io/profile/renitam"
+          target="_blank"
+          ><p class="social__text">Frontend Mentor</p></a
+        >
+        <a
+          class="social__link"
+          href="https://www.linkedin.com/in/mwangachuchu/"
+          target="_blank"
+          ><p class="social__text">LinkedIn</p></a
+        >
+        <a class="social__link" href="https://www.twitch.tv/afrod31ty" target="_blank"
+          ><p class="social__text">Twitch</p></a
+        >
+        <a
+          class="social__link"
+          href="https://www.tiktok.com/@afrod31ty"
+          target="_blank"
+          ><p class="social__text">TikTok</p></a
+        >
+      </nav>
+    </main>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
-I plan on adding a custom cursor for button hovers, and updating the design for accessibility.
+I plan on adding a custom cursor for button hovers, and updating the design for accessibility. [COMPLETED 5/2/25]
 
 ## Author
 
@@ -82,8 +105,6 @@ I plan on adding a custom cursor for button hovers, and updating the design for 
 - Twitter - [@afrod31ty](https://www.twitter.com/afrod31ty)
 - Twitch - [@afrod31ty](https://www.twitch.tv/afrod31ty)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Downloading the cursor svg from the Figma and using the url() cursor option took 2 seconds or less. 
