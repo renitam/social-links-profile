@@ -98,7 +98,7 @@
   gap: 16px;
 }
 
-.social {
+.social__link {
   background: var(--grey-700);
   color: var(--white);
   width: 304px;
